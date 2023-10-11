@@ -1,6 +1,6 @@
 # Img2Voxel
 
-3D shape reconstruction of images to voxels using the ShapeNet dataset.
+This is 3D shape reconstruction of images to voxels using the ShapeNet dataset.
 
 ## Architecture
 The architecture is based off of a UNet encoder decoder structure. We first learn an embedding space from voxels to voxels (a), and then try to match that embedding space with an image encoder (b), and then we finetune the final model (c).
